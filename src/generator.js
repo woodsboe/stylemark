@@ -110,7 +110,9 @@ class Generator {
 				sidebar: options.sidebar,
 				logo,
 				favicon,
-				groups
+				groups,
+        headHtml: options.headHtml,
+        bodyHtml: options.bodyHtml
 			});
 
 			let filepath = path.join(destination, 'index.html');
