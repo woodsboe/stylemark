@@ -1,72 +1,73 @@
 {
-  "name": "stylemark",
-  "version": "0.5.9",
-  "description": "A living style guide generator for everything.",
-  "keywords": [
-    "styleguide generator",
-    "style guide generator",
-    "living styleguide generator",
-    "living style guide generator",
-    "react styleguide",
-    "react style guide",
-    "angular styleguide",
-    "angular style guide",
-    "ember styleguide",
-    "ember style guide",
-    "css styleguide",
-    "css style guide",
-    "less styleguide",
-    "less style guide",
-    "sass styleguide",
-    "sass style guide",
-    "living styleguide",
-    "living style guide",
-    "component library",
-    "design pattern"
-  ],
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/gulp test"
-  },
-  "bin": {
-    "stylemark": "bin/stylemark"
-  },
-  "homepage": "https://github.com/nextbigsoundinc/stylemark",
-  "repository": "https://github.com/nextbigsoundinc/stylemark.git",
-  "bugs": {
-    "url": "https://github.com/nextbigsoundinc/stylemark/issues"
-  },
-  "author": "Mike Petrovich <michael.c.petrovich@gmail.com>",
-  "license": "MIT",
-  "engine": {
-    "node": "6.x"
-  },
-  "bundleDependencies": [
-    "rfr"
-  ],
-  "dependencies": {
-    "babel-core": "^6.25.0",
-    "babel-preset-react": "^6.24.1",
-    "bluebird": "^3.5.1",
-    "browser-sync": "^2.18.13",
-    "chokidar": "^1.7.0",
-    "common-js-file-extensions": "^1.0.2",
-    "fs-extra": "^4.0.2",
-    "gray-matter": "^2.1.1",
-    "handlebars": "^4.0.10",
-    "iframe-resizer": "^3.5.14",
-    "js-yaml": "^3.10.0",
-    "lodash": "^4.17.2",
-    "markdown-extensions": "^1.1.0",
-    "marked": "^0.3.6",
-    "mkdirp": "^0.5.1",
-    "moment": "^2.19.0",
-    "node-dir": "^0.1.17",
-    "rfr": "^1.2.3"
-  },
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "gulp-mocha": "^2.0.0"
-  }
+    "name": "stylemark",
+    "version": "0.5.9",
+    "description": "A living style guide generator for everything.",
+    "keywords": [
+        "styleguide generator",
+        "style guide generator",
+        "living styleguide generator",
+        "living style guide generator",
+        "react styleguide",
+        "react style guide",
+        "angular styleguide",
+        "angular style guide",
+        "ember styleguide",
+        "ember style guide",
+        "css styleguide",
+        "css style guide",
+        "less styleguide",
+        "less style guide",
+        "sass styleguide",
+        "sass style guide",
+        "living styleguide",
+        "living style guide",
+        "component library",
+        "design pattern"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/gulp test",
+        "stylemark:example": "node ./bin/stylemark -i example/code -o example/styleguide -c example/config/config.yml -w -b"
+    },
+    "bin": {
+        "stylemark": "bin/stylemark"
+    },
+    "homepage": "https://github.com/woodsboe/stylemark",
+    "repository": "https://github.com/woodsboe/stylemark.git",
+    "bugs": {
+        "url": ""
+    },
+    "author": "Mike Petrovich <michael.c.petrovich@gmail.com>",
+    "license": "MIT",
+    "engine": {
+        "node": "6.x"
+    },
+    "bundleDependencies": [
+        "rfr"
+    ],
+    "dependencies": {
+        "babel-core": "^6.25.0",
+        "babel-preset-react": "^6.24.1",
+        "bluebird": "^3.5.1",
+        "browser-sync": "^2.18.13",
+        "chokidar": "^1.7.0",
+        "common-js-file-extensions": "^1.0.2",
+        "fs-extra": "^4.0.2",
+        "gray-matter": "^2.1.1",
+        "handlebars": "^4.0.10",
+        "iframe-resizer": "^3.5.14",
+        "js-yaml": "^3.10.0",
+        "lodash": "^4.17.2",
+        "markdown-extensions": "^1.1.0",
+        "marked": "^0.3.6",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.19.0",
+        "node-dir": "^0.1.17",
+        "rfr": "^1.2.3"
+    },
+    "devDependencies": {
+        "chai": "^1.10.0",
+        "gulp": "^3.8.10",
+        "gulp-mocha": "^2.0.0"
+    }
 }
