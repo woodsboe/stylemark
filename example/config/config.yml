@@ -1,0 +1,19 @@
+name: Example
+logo: https://business.kaufmann.dk/dist/assets/logo/logo.svg
+assets:
+  - assets
+
+sidebar:
+  background: "#ccc"
+  textColor: "#484848"
+
+headHtml: |
+  <link rel="stylesheet" href="https://business.kaufmann.dk/dist/css/b2b.css">
+
+bodyHtml:
+  <script src=""></script>
+
+order:
+  - +Introduction
+  - Atoms
+  - -Buttons
